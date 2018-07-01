@@ -19,6 +19,7 @@ Tracks is distributed under the terms of the GNU GPL
 .site-title, .toggle-navigation i {
   font-size: 3.5em;
   line-height: 1.85;
+  font-size: 2.5vw; 
 }
 
 .wp-caption-text, .excerpt-meta, .entry-meta, .more-link, .pagination, .further-reading span,
