@@ -6,6 +6,9 @@
     <div class="menu">
 
       <ul id="menu-secondary-items" class="menu-secondary-items">
+        <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
+          <a href="http://100cups100places.com/">home</a>
+        </li>
         {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
         <li id="menu-item" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item">
           <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
